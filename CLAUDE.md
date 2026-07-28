@@ -11,7 +11,11 @@ pasted into the mail platform's editor.
 2. **Remove anything already past.** The newsletter goes out near the start of the month;
    events earlier than the send date should not appear at all.
 3. **Regroup by the site's own taxonomy** (see below) rather than inventing categories.
-4. **Feature 3–4 events** for the month, in chronological order, with a short blurb each.
+4. **Feature 3–4 events** for the month, generally in chronological order, with a short blurb
+   each. Exception: an event with real registration lead time or limited capacity (e.g. a
+   multi-day residential retreat) can be placed ahead of a sooner but lower-commitment event,
+   so readers have more time to plan and register. Save a low-barrier, no-registration event
+   for last as a closing note.
 5. **Refresh the Wednesday and Thursday blurbs** from their event pages — the current book
    and chapters, the current talk series and source texts.
 6. **Verify partner organizations and named people** before they go out under Gareth's
@@ -47,6 +51,18 @@ under Special Events. The potluck lives in Regular Programs only.
 **Repetition rule:** an event may appear at most twice — once in Featured (prose, persuasive)
 and once in its list (scannable reference). Three appearances means it's in the wrong list.
 
+**Featured Events header:** just "Featured Events" — no month/year in the label, since the
+section can include a following-month event (e.g. a retreat) alongside the current month's.
+
+**Colored background:** the tinted box (`#fffaf2`) belongs on **Featured Events**, the
+persuasive/highlighted section. Retreats & Study, Special Events, and Regular Programs are
+scannable reference lists and stay plain — don't move the tint back onto them.
+
+**Regular Programs entries stay one line** (name + day/time), except Wednesday and Thursday,
+which get one additional sentence covering the current book/series and, if known, what's
+next — not a paragraph. If a refresh pulls in more detail than that, trim it back down rather
+than including everything found on the event page.
+
 ## Recurring facts
 
 - **Gareth Young** is the guiding teacher; he signs the Teacher's Note. The note is drafted
@@ -81,3 +97,18 @@ Verify these rather than copying blindly:
 - Keep the existing inline-CSS table structure and the warm palette (`#8b3a2a`, `#d98c5f`,
   `#fbeee2`, `#fff5ea`). Inline styles only — no `<style>` blocks or external CSS.
 - Event listings stay third person even though the note is first person.
+
+### Link text conventions
+
+- **Homepage link (`https://www.redclaysangha.org`):**
+  - "Welcome page" when the sentence points somewhere ("visit our Welcome page for details").
+  - "website" for generic action phrases ("log in to your account on our website," "join
+    online... full details are also available on our website"). Don't use "homepage."
+  - Keep the same label for the same phrasing pattern throughout the issue — it's the same
+    URL every time, so an inconsistent label reads as a mistake.
+- **Calendar link:** always its own link on "Calendar," never bundled with the homepage link
+  under one combined label.
+- **Featured Events:** end each blurb with "Learn more and register **here**," hyperlinked on
+  "here."
+- **Regular Programs (Wednesday/Thursday):** end with "Learn more **here**" (no "and
+  register" — these are standing weekly sits, not registrations), hyperlinked on "here."
