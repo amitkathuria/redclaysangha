@@ -30,9 +30,16 @@ var bonaPage_WebPackRootPath = 'https://live-sf.wildapricot.org/WebUI/built9.17.
    logo's red-clay red (#ad0c01) so the accent color matches the brand mark. */
 a:not(.stylizedButton), a:visited:not(.stylizedButton), a:hover:not(.stylizedButton),
 h1, h2,
-.gadgetStyle003 .gadgetStyleTitle h4,
 .gadgetStyle001 .gadgetStyleTitle h4 {
   color: #ad0c01 !important;
+}
+/* Match "Dharma Talks" to the plain section-header style used by the three
+   event columns (gray, 24px, title case) instead of the hero heading style
+   its gadgetStyle003 wrapper defaults to. */
+.gadgetStyle003 .gadgetStyleTitle h4 {
+  color: #949493 !important;
+  font: 300 24px/normal "Roboto Slab" !important;
+  text-transform: none !important;
 }
 a.stylizedButton.buttonStyle001,
 a.stylizedButton.buttonStyle001:hover,
