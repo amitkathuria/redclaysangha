@@ -82,12 +82,15 @@ than including everything found on the event page.
 
 Verify these rather than copying blindly:
 
-- **Wednesday group start time** differs between the calendar (7:30 PM) and the Programs
-  page (8:00 PM). Unresolved as of the August 2026 issue.
 - The calendar has shown **Sunday Morning Meditation on non-Sunday dates** (e.g. Sat Aug 1,
   2026). Sanity-check weekday/date pairs.
 - Event pages sometimes **stop publishing topics mid-month**. Say what's known and link out;
   don't invent chapters or topics to fill the gap.
+- The Red Clay calendar has shown wrong weekdays for **Sacred Friends Explore Hinduism**
+  session instances (e.g. listed Fri Sep 18/25, 2026 rather than the correct Tuesdays). For
+  this series, treat `sacredfriendsinterfaith.org`'s own announcement page as authoritative
+  over the Red Clay calendar: 8 Tuesday sessions, Sept 15–Nov 3, 2026, 7:00–8:30 PM Zoom, plus
+  three Thursday-morning temple visits (Sep 24, Oct 15, Oct 29).
 
 ## House style
 
